@@ -1,0 +1,58 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+/* Customize the background color of the navigation bar */
+.navbar.bg-crimson {
+    background-color: #f3365c; 
+
+
+h1{
+    color:#DC143C;
+}
+
+
+
+/* Responsive Styles with Bootstrap (Assuming you have Bootstrap included) */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    /* Add responsive styles here */
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    font-size: 16px; /* Increased font size for better readability */
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px; /* Added margin-bottom for spacing between cards */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Styles for table elements */
+table, th, tr {
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Style for remove button */
+.btn-danger {
+    background-color: crimson;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+}

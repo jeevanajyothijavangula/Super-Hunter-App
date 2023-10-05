@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Include Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Include jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Include CryptoJS for MD5 hash -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    
+
+    <title>Superhero Hunter</title>
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-crimson ">
+        <div class="container bg-crimson">
+            <!-- Website Title -->
+            <h1><a class="navbar-brand text-white font-weight-bolder titlefontsize" href="#">Super-Hunter</a></h1>
+            
+            <!-- Favorite Button Link -->
+            <a class="btn btn-outline-light ml-auto font-weight-bold" href="favorites.html">Favorites</a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <!-- Search Input -->
+        <div class="row mt-5">
+            <div class="col-md-6 offset-md-3">
+                <div class="input-group">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search superheroes">
+                </div>
+            </div>
+        </div>
+        
+        
+        <span id="superheroes" class="mt-3 card-group">
+        </span>
+    </div>
+    
+
+    <!-- Include Custom JavaScript -->
+    <script src="app.js"></script>
+    <script src="favorite.js"></script>
+    
+</body>
+</html>
